@@ -17,10 +17,10 @@ import android.view.View;
 
 /**
  * @author kince
- * @category 仿solo桌面内存清理效果
+ * @category 浠縮olo妗岄潰鍐呭瓨娓呯悊鏁堟灉
  * @since 2014.7.30
  * @version 1.0.0
- * {@link }
+ * {@link http://blog.csdn.net/wangjinyu501/article/details/38298737}
  * 
  */
 public class ProgressRectangle extends View {
@@ -141,7 +141,7 @@ public class ProgressRectangle extends View {
 		Log.i("progress", progress + "");
 		rectProgressBounds = new RectF(0, 0, progress, layout_height);
 		canvas.drawRect(rectProgressBounds, progressPaint);
-		canvas.drawText("使用内存", 25, 25, titlePaint);
+		canvas.drawText("浣跨敤鍐呭瓨", 25, 25, titlePaint);
 		canvas.drawText(progress + "M" + "/1024M", 25, 60, usePaint);
 
 	}
